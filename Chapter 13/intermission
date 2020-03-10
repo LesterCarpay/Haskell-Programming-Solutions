@@ -1,0 +1,9 @@
+intermission: check your understanding:
+
+1. forever and when
+2. Data.Bits and Database.Blacktip.Types
+3. Some sort of collection of types defined within the library itself
+4. a) Control.Concurrent.MVar, Filesystem.Path.CurrentOS and Control.Concurrent
+   b) Filesystem
+   c) Control.Monad (forever, when)
+   

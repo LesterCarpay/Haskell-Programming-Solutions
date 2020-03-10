@@ -3,10 +3,10 @@ import Data.Char
 --Vigenere cipher
 cipher :: String -> String -> String
 cipher message key
-  | message == [] = []
+  |      message == []  = []
   | head message == ' ' = " " ++ cipher (tail message) infiniteKey
-  | otherwise     = [shift (head message) (head infiniteKey)]
-                    ++ cipher (tail message) (tail infiniteKey)
+  | otherwise           = [shift (head message) (head infiniteKey)]
+                           ++ cipher (tail message) (tail infiniteKey)
    where
     infiniteKey = key ++ infiniteKey
     shift c byC
